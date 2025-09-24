@@ -69,7 +69,7 @@ footer{
 }
 
 h1{
-  font-size: xx-large;
+  font-size: 2.5em;
   font: bold;
   font-weight: bold;
   padding-top: 2em;
@@ -78,10 +78,11 @@ h1{
 
 .letras{
   font-family: 'Times New Roman', Times, serif;
-  font-size: xx-large;
+  font-size: 3em;
   font-weight: bold;
   color: indianred;
-  padding-bottom: 1em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
 }
 
 h4{
@@ -96,5 +97,19 @@ h5{
 .blockquote-inicio{
   margin: 0;
   padding: 0 22%;
-  line-height: 1.25em;
+  line-height: 1.5em;
+  padding-bottom: 1.5em;
+}
+
+.autor{
+  font-size:larger;
+  margin: 0;
+}
+
+.fecha-articulo{
+  margin: 0;
+  padding-top: 2em;
+  padding-bottom: 4em;
+  font-size: 0.6em;
+  text-transform: uppercase;
 }
