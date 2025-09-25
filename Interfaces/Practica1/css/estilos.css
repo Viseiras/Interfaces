@@ -68,7 +68,17 @@ footer{
   justify-content: center;
 }
 
-h1{
+a{
+  color: indianred;
+}
+
+.introduccion__texto-imagen{
+  font-size: 0.6em;
+  padding-top: 1em;
+  padding-bottom: 3em;
+}
+
+.introduccion__titulo{
   font-size: 2.5em;
   font: bold;
   font-weight: bold;
@@ -85,31 +95,74 @@ h1{
   padding-bottom: 0.5em;
 }
 
-h4{
+.pagina-actual{
   font-weight: bold;
   font-style: italic;
 }
 
-h5{
+.enlace-pagina{
   padding-top: 0.5em;
 }
 
-.blockquote-inicio{
+.introduccion__blockquote-inicio{
   margin: 0;
   padding: 0 22%;
   line-height: 1.5em;
   padding-bottom: 1.5em;
 }
 
-.autor{
+.introduccion__autor{
   font-size:larger;
   margin: 0;
 }
 
-.fecha-articulo{
+.introduccion__fecha{
   margin: 0;
   padding-top: 2em;
   padding-bottom: 4em;
   font-size: 0.6em;
   text-transform: uppercase;
+}
+
+.introduccion__bloque-texto{
+  text-align: left;
+  font-size: 1.1em;
+  font-weight: bold;
+  line-height: 1.5em;
+  margin-right: 28rem;
+}
+
+.contenido__titulo{
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: left;
+  margin: 0;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.contenido__texto{
+  text-align: left;
+  font-size: 0.9em;
+  line-height: 1.75em;
+}
+
+.contenido__texto p{
+  margin-bottom: 1em;
+}
+
+.contenido__texto cite{
+  font-style: italic;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contenido__video{
+  display: block;
+  margin: 0 auto;
+  height: fit-content;
+}
+
+.contenido__video iframe{
+  width: 33rem;
+  height: 20rem;
 }
