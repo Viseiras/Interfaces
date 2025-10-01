@@ -87,7 +87,7 @@ a{
 }
 
 .letras{
-  font-family: 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 3em;
   font-weight: bold;
   color: indianred;
@@ -151,9 +151,25 @@ a{
   margin-bottom: 1em;
 }
 
-.contenido__texto cite{
+.contenido__cite{
   font-style: italic;
   font-family: 'Times New Roman', Times, serif;
+}
+
+.contenido__blockquote{
+  margin: 0 4rem 0 4rem;
+  text-align: left;
+  line-height: 1.5em;
+  padding-bottom: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contenido__cite-blockquote{
+  font-style: italic;
+  text-align: left;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  padding: 2rem;
 }
 
 .contenido__video{
